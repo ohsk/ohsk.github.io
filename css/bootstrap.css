@@ -910,13 +910,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #f2664f;
   text-decoration: none;
 }
 a:hover,
 a:focus {
   color: #2a6496;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted;
@@ -4548,7 +4548,7 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #ffff;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4588,7 +4588,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
@@ -4598,6 +4598,7 @@ a.list-group-item.active > .badge,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
+  border-radius: 100%;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
