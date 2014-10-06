@@ -5,6 +5,7 @@
 #portfolio h3 {
 	font-weight: 500;
 	line-height: 1.5em;
+	max-width: 32em;
 }
 
 #portfolio h4 {
@@ -16,4 +17,41 @@
 
 #portfolio .meta-entry {
 	margin-bottom: 2em;
+}
+
+#portfolio .meta-entry h5 {
+	color: #777;
+	font-weight: 500;
+}
+
+#portfolio p {
+	margin-top: 1.375em;
+}
+
+#portfolio img {
+	max-width: 100%;
+  	height: auto;
+  	margin-top: 20px;
+}
+
+#portfolio ul {
+	display: block;
+	list-style-type: none;
+	-webkit-margin-before: 1.5em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+
+#portfolio ul li {
+	line-height: 1em;
+	margin: .75em 0 .5em;
+}
+
+#portfolio ul li small {
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-size: 60%;
 }
