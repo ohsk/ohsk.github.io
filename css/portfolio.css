@@ -1,0 +1,19 @@
+.jumbotron img {
+	max-width: 100%;
+}
+
+#portfolio h3 {
+	font-weight: 500;
+	line-height: 1.5em;
+}
+
+#portfolio h4 {
+	color: #777;	
+	font-weight: 500;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#portfolio .meta-entry {
+	margin-bottom: 2em;
+}
