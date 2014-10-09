@@ -2,7 +2,7 @@
 	margin-top: 80px;
 }
 
-.resume-entry {
+/*.resume-entry {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #eee;
@@ -10,37 +10,37 @@
 
 .resume-entry:last-child {
 	border-bottom: none;
-}
+}*/
 
 .resume-section {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
-.resume-section h2 {
+/*.resume-section h2 {
 	margin-top: 0px;
-}
+}*/
 
-#resume h5 {
+#resume p {
 	color: #777;
-	font-weight: 500;
 }
 
 #resume h6 {
-	color: #777;
-	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-@media screen and (max-width: 767px) {
+#resume h6.location {
+	color: #777;
+	font-weight: 500;
+}
+
+/*@media screen and (max-width: 767px) {
 	.resume-entry {
 		margin-bottom: 20px;
 		padding-bottom: 120px;
 		border-bottom: 1px solid #eee;
 	}
 	.resume-section h2 {
-		margin-bottom: 20px;
-		padding-bottom: 20px;
-		border-bottom: 1px solid #eee;
+		margin: 80px 0 40px;
 	}
-}
+}*/
