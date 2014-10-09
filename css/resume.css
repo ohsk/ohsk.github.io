@@ -2,23 +2,9 @@
 	margin-top: 80px;
 }
 
-/*.resume-entry {
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #eee;
-}
-
-.resume-entry:last-child {
-	border-bottom: none;
-}*/
-
 .resume-section {
 	margin-bottom: 60px;
 }
-
-/*.resume-section h2 {
-	margin-top: 0px;
-}*/
 
 #resume p {
 	color: #777;
@@ -33,14 +19,3 @@
 	color: #777;
 	font-weight: 500;
 }
-
-/*@media screen and (max-width: 767px) {
-	.resume-entry {
-		margin-bottom: 20px;
-		padding-bottom: 120px;
-		border-bottom: 1px solid #eee;
-	}
-	.resume-section h2 {
-		margin: 80px 0 40px;
-	}
-}*/
