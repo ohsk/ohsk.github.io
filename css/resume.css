@@ -7,7 +7,7 @@
 }
 
 #resume p {
-	color: #777;
+	color: #999;
 }
 
 #resume h6 {
@@ -16,6 +16,28 @@
 }
 
 #resume h6.location {
-	color: #777;
+	color: #999;
 	font-weight: 500;
+}
+
+#resume ul {
+	color: #777;
+	display: block;
+	list-style-type: none;
+	-webkit-margin-before: 1.5em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+
+#resume ul li {
+	line-height: 1em;
+	margin: .75em 0 .5em;
+}
+
+#resume ul li small {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-size: 60%;
 }
