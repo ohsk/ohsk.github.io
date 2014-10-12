@@ -10,8 +10,8 @@
 }
 
 #portfolio h4 {
-	color: #777;	
-	font-weight: 500;
+	/*color: #777;*/	
+	font-weight: 600;
 	line-height: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -35,7 +35,7 @@
   	margin-top: 20px;
 }
 
-#portfolio ul {
+.collab ul {
 	display: block;
 	list-style-type: none;
 	-webkit-margin-before: 1.5em;
@@ -45,12 +45,12 @@
 	-webkit-padding-start: 0px;
 }
 
-#portfolio ul li {
+.collab ul li {
 	line-height: 1em;
 	margin: .75em 0 .5em;
 }
 
-#portfolio ul li small {
+.collab ul li small {
 	color: #777;
 	text-transform: uppercase;
 	letter-spacing: .5px;
