@@ -37,6 +37,7 @@
 }
 
 #resume ul li small {
+	color: #999;
 	text-transform: uppercase;
 	letter-spacing: .5px;
 	font-size: 60%;
