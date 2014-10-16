@@ -37,11 +37,14 @@
   border-bottom-color: #111;
   border-bottom-color: rgba(5,5,5,.75);
 }
-.masthead-nav > .active > a,
+.masthead-nav > .active > a {
+  color: #a9a941;
+  border-bottom-color: #a9a941;
+}
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #f2664f;
-  border-bottom-color: #f2664f;
+  color: #5f5f25;
+  border-bottom-color: #5f5f25;
 }
 
 @media (min-width: 768px) {
