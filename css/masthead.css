@@ -56,4 +56,37 @@
   }
 }
 
+#foot {
+  color: #fff;
+  background-color: #f46549;
+  padding-top: 2.5em;
+  padding-bottom: 6em;
+  margin-top: 3em;
+  margin-bottom: -1.25em;
+  letter-spacing: 1px;
+}
+#foot-content {
+  opacity: .5;
+}
+#foot h6 {
+  font-weight: 200;
+}
+#foot a {
+  color: #fff;
+}
+#foot a:hover {
+  opacity: .75;
+}
+#foot h6.social {
+  margin-top: 2em;
+}
+#foot h6.social a {
+  padding-right: 1em;
+}
+#foot h6.social a:nth-last-child(1) {
+  padding-right: 0em;
+}
+
+
+
 
