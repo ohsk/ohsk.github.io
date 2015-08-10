@@ -897,7 +897,7 @@ html {
 body {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.675;
+  line-height: 1.875;
   color: #333;
   background-color: #fff;
 }
@@ -910,8 +910,9 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #f3b314;
+  color: #111;
   /*color: #f2664f;*/
+  border-bottom: 3px solid #f3b314;
   text-decoration: none;
 }
 a:hover,
