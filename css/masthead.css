@@ -29,7 +29,7 @@
   font-weight: bold;
   color: #111; /* IE8 proofing */
   color: rgba(5,5,5,.75);
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
