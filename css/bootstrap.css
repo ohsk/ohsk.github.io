@@ -923,7 +923,7 @@ h5 > a {
 }
 a:hover,
 a:focus {
-  color: #694c05;
+  color: #5f5f25;
   /*color: #9d200c;*/
   /*text-decoration: underline;*/
 }
@@ -2825,7 +2825,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #a9a941;
+  background-color: #f9d785;
   border-color: #fff;
 }
 .btn-primary:hover,
