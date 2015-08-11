@@ -15,6 +15,9 @@
   margin-top: 5px;
   margin-bottom: 20px;
 }
+.masthead-brand a {
+  padding-bottom: 12px;
+}
 
 .masthead-nav > li {
   display: inline-block;
