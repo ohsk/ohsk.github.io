@@ -4565,6 +4565,13 @@ a.list-group-item.active > .badge,
   color: inherit;
   background-color: #fff;
 }
+/*ADJUST JUMBOTRON ON SMALL*/
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 0px;
+    margin: 0px;
+  }
+}
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
