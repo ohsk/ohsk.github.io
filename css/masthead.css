@@ -60,8 +60,8 @@
 }
 
 #foot {
-  color: #fff;
-  background-color: #f46549;
+  /*color: #fff;*/
+  background-color: #f1f1f1;
   padding-top: 2.5em;
   padding-bottom: 6em;
   margin-top: 3em;
@@ -74,9 +74,9 @@
 #foot h6 {
   font-weight: 200;
 }
-#foot a {
+/*#foot a {
   color: #fff;
-}
+}*/
 #foot a:hover {
   opacity: .75;
 }
