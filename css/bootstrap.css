@@ -4624,7 +4624,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .thumbnail .caption {
   padding: 9px;
