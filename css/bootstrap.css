@@ -4613,7 +4613,6 @@ a.list-group-item.active > .badge,
 }
 .thumbnail > img,
 .thumbnail a > img {
-  border-radius: 100%;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -4626,6 +4625,9 @@ a.thumbnail.active {
 .thumbnail .caption {
   padding: 9px;
   color: #333;
+}
+.thumbnail .thumbnail-circle {
+  border-radius: 100%;
 }
 .alert {
   padding: 15px;
