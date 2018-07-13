@@ -4599,11 +4599,11 @@ a.list-group-item.active > .badge,
   .jumbotron .h1 {
     font-size: 63px;
   }
-}
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 12px;
+  .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 12px;
+  }
 }
 .thumbnail {
   display: block;
