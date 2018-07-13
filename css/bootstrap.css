@@ -4600,6 +4600,11 @@ a.list-group-item.active > .badge,
     font-size: 63px;
   }
 }
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+}
 .thumbnail {
   display: block;
   padding: 4px;
