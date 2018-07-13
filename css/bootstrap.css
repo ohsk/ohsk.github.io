@@ -4603,7 +4603,7 @@ a.list-group-item.active > .badge,
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 40px;
+    top: 12px;
 }
 .thumbnail {
   display: block;
