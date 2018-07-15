@@ -60,13 +60,13 @@
 	</div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron" style="background-image:url('./img/coord-curbs/coord-curbs-hero2.gif');height: 320px; background-size: cover;background-position: right; ">
+    <div class="jumbotron" style="background-image:url('./img/coord-curbs/coord-curbs-hero2.gif');height: 360px; background-size: cover;background-position: right; ">
     </div>
 
     <div id="portfolio" class="container">
 
     	<div class="row">
-    		<div class="col-sm-4">
+    		<div class="col-sm-5 col-md-4">
 	      		<div class="row">
 					<div class="col-xs-12 col-sm-12">
 						<h1>Curbs API</h1>
@@ -90,8 +90,8 @@
 		  			</div>
 		            <div class="col-xs-12 meta-entry">
 		                <h6>See the work</h6>
-		                <h5><a href="https://coord.co/curbs" target="_blank">Checkout Coord's Curb Explorer <span class="glyphicon glyphicon-link"></span></a></h5>
-		                <h5><a href="https://medium.com/coord/the-future-of-mobility-starts-at-the-curb-8b83cdb8d173" target="_blank">Read more about building the Curbs API <span class="glyphicon glyphicon-link"></span></a></h5>
+		                <h5><a href="https://coord.co/curbs" target="_blank">Checkout Coord's Curb Explorer</a> <span class="glyphicon glyphicon-link"></span></h5>
+		                <h5><a href="https://medium.com/coord/the-future-of-mobility-starts-at-the-curb-8b83cdb8d173" target="_blank">Read more about building the Curbs API</a> <span class="glyphicon glyphicon-link"></span></h5>
 		            </div>
 	          	</div>
         	</div>
@@ -99,30 +99,84 @@
 	        <!-- Add the extra clearfix for only the required viewport -->
 			<div class="clearfix visible-xs-block"></div>
 
-			<div class="col-sm-8">
+			<div class="col-sm-7 col-md-8">
 	        	<h3>Curbs are the nexus of mobility in cities, but information about the rules that govern them is difficult to obtain. Coord's Curbs API allows developers to easily understand how any stretch of curb can be used for over 200K curbs in Los Angeles, New York City, San Francisco, and Seattle.</h3>
 	        	<div class="row">
-	        		<div class="col-sm-6">
-						<p>In the past few years, the humble curb has become one of the most hotly contested pieces of real estate in cities. In addition to long-standing demand from private cars, taxis, buses, trams and delivery trucks, now ride-hail services, bike lanes, bike-share stations, car-shares, scooters and e-bikes are also competing for use of this precious piece of concrete between the street and the sidewalk. As Aarian Marshall from Wired aptly put it: “to see the future of cities, watch the curb.”</p>
+	        		<div class="col-md-6">
+						<p>Over the past few years, the humble curb has become one of the most hotly contested pieces of real estate in cities. In addition to long-standing demand from private cars, taxis, buses, trams and delivery trucks, now ride-hail services, bike lanes, bike-share stations, car-shares, scooters and e-bikes are also competing for use of this precious piece of concrete between the street and the sidewalk.</p>
+		            </div>
+	        		<div class="col-md-6">
 			            <p>This increased demand often translates into congestion at the curb, which can have rippling effects on traffic flow and safety. Cities such as Washington, D.C. and San Francisco have begun looking for ways to better manage their curbs by designating select blocks for passenger vehicle pick-ups and drop-offs.</p>
 		            </div>
-	        		<div class="col-sm-6">
-						<p>Other cities have launched programs to digitize their public street inventory but, as Willa Ng at Sidewalk Labs has previously discussed, this is typically a very costly endeavor. This is why we embarked on a journey last year to explore more efficient ways to digitize city curbs. Our Curbs API makes this information widely available for multiple cities in a standard format, allowing software developers to easily integrate it into their applications.</p>
-						<p>Coord made this information available for non-commercial use by researchers, local agencies, mobility companies or anyone else in the community, and built a Curb Explorer so anyone can see the data on a map. We hope this will help jumpstart the conversation on the importance of the curb in the rapidly evolving transportation landscape.</p>
-		            </div>
 				</div>
+				<h3>Other cities have launched programs to digitize their public street inventory, but this is typically a very costly endeavor. This is why Coord embarked on  exploring more efficient ways to digitize city curbs. Our Curbs API makes this information widely available for multiple cities in a standard format, allowing software developers to easily integrate it into their applications.</h3>
 	    	</div>
 		</div>
 
-	    <div class="clearfix visible-md-block visible-lg-block"></div>
-	    <hr id="portal">
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr id="portal">
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h2>Data Collection Process:</h2>
+				<h4 style="line-height:1.75;">1. Surveyor App<br/>2. Surveyor Management<br/>3. Signage Transcription<br/>4. Data Parsing</h4>
+				<h4>Surveyor App</h4>
+				<p>Combining Tango augmented reality technology &amp; computer-assisted processing, we built an Android app that dramatically sped up the time it takes to survey the features on a curb that dictate how it can be used.</p>
+				<p>Throughout the development process, we tested the app with internal and external users by having them go through the actual surveying process. Our goal was to decrease surveying time per curb down to 5-6 minutes.</p>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/coord-curbs/coord-curbs-surveyor-app.jpg" />
+				<img src="./img/coord-curbs/coord-curbs-surveyor-process.jpg" />
+			</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr>
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h4>Surveyor Management</h4>
+				<p>Then we built an MVP management UI that enabled us to create groups of surveyors and assign them subsets of a city's curbs. After deploying these surveyors with the Surveyor App, their progress could be tracked. As data was received, the UI also allowed us to clean up incongruencies in surveys.</p>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/coord-curbs/coord-curbs-management.jpg" />
+			</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr>
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h4>Signage Transcription</h4>
+				<p>We also built an MVP internal tool for the transcription of parking sign photos by mechanical turks.</p>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/coord-curbs/coord-curbs-transcriptionator.jpg" />
+			</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr>
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h4>Data Parsing</h4>
+				<p>Location data of the physical assets at the curb, combined with the transcribed parking signs, were parsed by our engineering team into the relevant rules, translated into linear curb segments</p>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/coord-curbs/coord-curbs-translated-rules.png" />
+			</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr>
 
 		<div class="row">
 			<div class="col-sm-4 col-md-3">
 				<h2>Curbs API Documentation</h2>
-				<h4>Coord's API allows developers to easily understand how any stretch of curb can be used.</h4>
-				<p>We built a documentation section of the Coord website to allow developers to research how to make use of various API methods.</p>
-				<p>As design lead, I helped with landscape analysis of developer documentation best practices, vetted platforms we could use, and tested documentation comprehension with users.</p>
+				<h4>Good API documentation enables developers to quickly understand and test various API methods and their parameters.</h4>
+				<p>As design lead, I helped with landscape analysis of developer documentation best practices, vetted documentation platforms, and tested  comprehension and usability with users.</p>
 			</div>
 			<div class="col-sm-8 col-md-9">
 				<img src="./img/coord-curbs/coord-curbs-api-docs.jpg" />
@@ -135,9 +189,9 @@
 		<div class="row">
 			<div class="col-sm-4 col-md-3">
 				<h2>Curb Explorer</h2>
-				<h4>As an example of what’s possible with Coord's data, we conceptualized and built Curb Explorer.</h4>
-				<p>It displays the various curb regulations in San Francisco and New York City on a filterable, color-coded map, pulling the data directly from the Curbs API.</p>
-				<p>As design lead on the project, I helped with both interaction design, map styling, and data design.</p>
+				<h4>To demonstrate what’s possible with Coord's data, we conceptualized and built a web app called Curb Explorer.</h4>
+				<p>Curb Explorer displays data from the Curbs API in a filterable, color-coded map. Users can select options for vehicle type and anticipated use of the curb, such as picking up passengers or dropping off goods, to see what rules prevail at different times of day.</p>
+				<p>As design lead on the project, I facilitated interaction design of the UI, map and data styling, and user testing.</p>
 			</div>
 			<div class="col-sm-8 col-md-9">
 				<video controls autoplay loop muted width="100%">

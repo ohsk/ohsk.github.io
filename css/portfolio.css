@@ -25,10 +25,16 @@
 	margin-top: 1.375em;
 }
 
-#portfolio img {
+#portfolio img,
+#portfolio video {
 	max-width: 100%;
-  	height: auto;
-  	margin-top: 20px;
+	height: auto;
+	margin-top: 20px;
+}
+
+#portfolio img:last-child,
+#portfolio video:last-child {
+	margin-bottom: 20px;
 }
 
 .collab ul {
