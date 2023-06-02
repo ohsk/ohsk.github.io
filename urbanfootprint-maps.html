@@ -1,0 +1,94 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        {% include head.html %}
+        <style>
+            @media (max-width: 768px) { h1 {font-size: 28px !important;} }
+            #portfolio h2 {margin-bottom: 0 !important;}
+            #portfolio h4 {margin-bottom: 0 !important;}
+        </style>
+	</head>
+
+  <body>
+
+    {% include header.html %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" style="background-image:url('./img/3dmc-22/30dmc-hero-web.jpg');height: 360px; background-size: cover;background-position: right; ">
+    </div>
+
+    <div id="portfolio" class="container">
+
+    	<div class="row">
+    		<div class="col-md-5">
+	      		<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<h1>UrbanFootprint Map Samples</h1>
+					</div>
+		  			<div class="col-xs-3 meta-entry">
+		  				<h6>Project Date</h6>
+		  				<h5>2018-present</h5>
+		  			</div>
+<!-- 		  			<div class="col-xs-9 meta-entry">
+		    			<h6>Tools Used</h6>
+		    			<h5>UrbanFootprint, QGIS, OpenStreetMap, Aerialod, Blender, Figma, Photoshop, Illustrator</h5>
+		  			</div> -->
+		            <!--<div class="col-xs-12 meta-entry">
+		                <h6>See the work</h6>
+		                <h5><a href="https://coord.co/curbs" target="_blank">Checkout Coord's Curb Explorer</a> <span class="glyphicon glyphicon-link"></span></h5>
+		                <h5><a href="https://medium.com/coord/the-future-of-mobility-starts-at-the-curb-8b83cdb8d173" target="_blank">Read more about building the Curbs API</a> <span class="glyphicon glyphicon-link"></span></h5>
+		            </div>-->
+	          	</div>
+        	</div>
+
+	        <!-- Add the extra clearfix for only the required viewport -->
+			<div class="clearfix visible-xs-block"></div>
+
+			<div class="col-md-7">
+	        	<h3>A sampling of cartographic work for UrbanFootprint blog posts and marketing material.</h3>
+	    	</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr id="portal">
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h4>Blog</h4>
+				<h2>Where Can Emergency Medical Capacity be Expanded Quickly in Response to COVID-19?</h2>
+				<p>Selection of maps as part of an analysis of potential alternate care sites in Los Angeles where COVID caseloads were rising rapidly in early 2020.</p>
+                <h5><a href="https://medium.com/urbanfootprint/where-can-emergency-medical-capacity-be-expanded-quickly-in-response-to-covid-19-3049cf3b1985" target="_blank">Full blog</a> <span class="glyphicon glyphicon-link"></span></h5>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/uf-maps/uf-covid-los-angeles-hospitals.jpg" />
+				<img src="./img/uf-maps/uf-covid-los-angeles-overflow-sites.jpg" />
+			</div>
+		</div>
+
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr>
+
+<!-- 		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h4>Day 2</h4>
+				<h2>Lines</h2>
+				<p>A quick map using @CityofMadison sidewalk and bike path data to visually mask over the road network. Shows areas with less walking infrastructure.</p>
+                <h5><a href="https://twitter.com/oh_sk/status/1587785525544587265?s=20&t=Rf2EJcYkZcPAH_D7fpH2DA" target="_blank">Tweet thread</a> <span class="glyphicon glyphicon-link"></span></h5>
+			</div>
+			<div class="col-sm-8 col-md-9">
+				<img src="./img/3dmc-22/Day-2-Sidewalk-Ends-Citywide.jpg" />
+			</div>
+		</div>
+        
+		<div class="clearfix visible-md-block visible-lg-block"></div>
+		<hr> -->
+
+	</div> <!-- /container -->
+
+	{% include footer.html %}
+
+	</body>
+</html>
