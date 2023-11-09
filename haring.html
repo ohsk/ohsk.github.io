@@ -22,18 +22,26 @@ body { margin: 0; padding: 0; }
         font-display: swap;
     }
     span {
-      font: bold 60px 'HaringRegular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-      position: absolute;
+      font: 14px 'HaringRegular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
       color: #262622;
-      top: 20px;
+      position: absolute;
       display: block;
-      left: 50%;
-      margin-left: -90px;
-      letter-spacing: 4px;
       width: auto;
+      left: 50%;
+    }
+    #title {
+      font-size: 60px;
+      top: 20px;
+      margin-left: -105px;
+      letter-spacing: 8px;
+    }
+    #footer {
+      bottom: 10px;
+      margin-left: -237px;
+      letter-spacing: 2px;
     }
     #btn-spin {
-        font: bold 12px 'HaringRegular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font: 12px 'HaringRegular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
         background-color: #262622;
         color: #fff;
         letter-spacing: 2px;
@@ -41,7 +49,7 @@ body { margin: 0; padding: 0; }
         bottom: 30px;
         left: 50%;
         z-index: 1;
-        border: 4px solid #262622;
+        border: 3px solid #262622;
         width: auto;
         margin-left: -65px;
         display: block;
@@ -51,17 +59,18 @@ body { margin: 0; padding: 0; }
     }
     #btn-spin:hover {
         background-color: #ff665b;
-        border: 4px solid #262622;
+        border: 3px solid #262622;
     }
 </style>
 <div id="map"></div>
-<span>Haring</span>
+<span id="title">Haring</span>
 <button id="btn-spin">Pause rotation</button>
+<span id="footer">2023 #30daymapchallenge Day 11 Retro Designed by Stephen Kennedy</span>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1Ijoic3RlcGhlbi1rZW5uZWR5IiwiYSI6ImNsbHdlMHY3cDB1YjQza21kZXcxNHZsaXoifQ.zoPnQgeaNzORmOIN9rZdGw';
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/stephen-kennedy/clolu6wex006f01ns8ilr32xw?fresh=true',
+        style: 'mapbox://styles/stephen-kennedy/clolu6wex006f01ns8ilr32xw',
         projection: 'globe', // Display the map as a globe, since satellite-v9 defaults to Mercator
         zoom: 3.5,
         center: [-90, 36],
