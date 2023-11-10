@@ -28,6 +28,7 @@ body { margin: 0; padding: 0; }
       display: block;
       width: auto;
       left: 50%;
+      text-align: center;
     }
     #title {
       font-size: 60px;
@@ -37,7 +38,7 @@ body { margin: 0; padding: 0; }
     }
     #footer {
       bottom: 10px;
-      margin-left: -237px;
+      margin-left: -141px;
       letter-spacing: 2px;
     }
     #btn-spin {
@@ -46,7 +47,7 @@ body { margin: 0; padding: 0; }
         color: #fff;
         letter-spacing: 2px;
         position: absolute;
-        bottom: 30px;
+        bottom: 48px;
         left: 50%;
         z-index: 1;
         border: 3px solid #262622;
@@ -65,7 +66,7 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 <span id="title">Haring</span>
 <button id="btn-spin">Pause rotation</button>
-<span id="footer">2023 #30daymapchallenge * Day 11 Retro * Designed by Stephen Kennedy</span>
+<span id="footer">2023 #30daymapchallenge * Day 11 Retro<br/>Designed by Stephen Kennedy</span>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1Ijoic3RlcGhlbi1rZW5uZWR5IiwiYSI6ImNsbHdlMHY3cDB1YjQza21kZXcxNHZsaXoifQ.zoPnQgeaNzORmOIN9rZdGw';
     const map = new mapboxgl.Map({
