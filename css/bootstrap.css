@@ -1112,6 +1112,7 @@ h6,
 p {
   margin: 12px 0 16px;
   max-width: 36em;
+  font-family: "Overpass", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .lead {
   margin-bottom: 20px;
