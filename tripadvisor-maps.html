@@ -22,13 +22,13 @@
 		</div>
 	</div>
 
-		<div class="jumbotron" style="background-color:#f8f8f8; padding-top:0; padding-bottom:0;">
-			<div class="container">
-				<img src="./img/tripadvisor-maps/thumb.webp" srcset="./img/tripadvisor-maps/thumb@2x.webp 2x" alt="Tripadvisor Map Pin System">
-			</div>
-		</div>
-
 		<div id="portfolio" class="container">
+
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="./img/tripadvisor-maps/thumb.webp" srcset="./img/tripadvisor-maps/thumb@2x.webp 2x" alt="Tripadvisor Map Pin System">
+				</div>
+			</div>
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -53,8 +53,85 @@
 
 				<div class="col-sm-8">
 					<h3>Designing the map pin system, interactions, and map style for Tripadvisor's mapping experience using Mapbox, creating a cohesive and intuitive way for travelers to explore destinations and points of interest.</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<p>Tripadvisor is the world's largest travel guidance platform, helping hundreds of millions of travelers each month plan and book their perfect trip. As part of a partnership with Mapbox, we redesigned the mapping experience across Tripadvisor's products, creating a custom map style and an intuitive pin system that helps travelers discover and explore destinations worldwide.</p>
+						</div>
+						<div class="col-md-6">
+							<p>The project involved designing a comprehensive system of map pins, interaction patterns, and a branded map style that seamlessly integrates with Tripadvisor's visual identity while providing a fast, responsive, and engaging experience across web and mobile platforms.</p>
+						</div>
+					</div>
 				</div>
-			</div>		
+			</div>
+
+			<div class="clearfix"></div>
+			<hr id="map-style">
+
+			<div class="row">
+				<div class="col-sm-4 col-md-3">
+					<h2>Custom Map Style</h2>
+					<h4>A branded map designed to complement Tripadvisor's visual identity</h4>
+					<p>We worked closely with Tripadvisor to develop a custom Mapbox map style that feels native to the platform. The style uses a refined color palette and simplified cartography to keep the focus on points of interest, while still providing enough geographic context for travelers to orient themselves.</p>
+					<p>Typography, road hierarchy, and land use colors were all tuned to ensure the map reads clearly at every zoom level, from a country-wide overview down to a street-level neighborhood view.</p>
+				</div>
+				<div class="col-sm-8 col-md-9">
+					<img src="./img/tripadvisor-maps/placeholder-map-style.svg" alt="Custom map style overview">
+					<div class="row">
+						<div class="col-sm-6"><img src="./img/tripadvisor-maps/placeholder-map-style-detail.svg" alt="Map style detail at street level"></div>
+						<div class="col-sm-6"><img src="./img/tripadvisor-maps/placeholder-pin-categories.svg" alt="Map style with pin categories"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+			<hr id="pin-system">
+
+			<div class="row">
+				<div class="col-sm-4 col-md-3">
+					<h2>Map Pin System</h2>
+					<h4>A unified system of pins for hotels, restaurants, and things to do</h4>
+					<p>Tripadvisor's map experience serves travelers looking for a wide range of categories including hotels, restaurants, vacation rentals, and things to do. We designed a pin system that creates clear visual distinction between these categories, using iconography and color coding to help users quickly scan and identify points of interest on the map.</p>
+					<p>The pin system scales gracefully across different density levels, from sparse rural areas to dense urban centers with hundreds of nearby results.</p>
+				</div>
+				<div class="col-sm-8 col-md-9">
+					<img src="./img/tripadvisor-maps/placeholder-pin-system.svg" alt="Map pin system overview">
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+			<hr id="interactions">
+
+			<div class="row">
+				<div class="col-sm-4 col-md-3">
+					<h2>Pin Interactions</h2>
+					<h4>Designing default, hover, selected, and clustered states</h4>
+					<p>Each pin needed to support multiple interaction states: a compact default state for scanning the map, a hover state that reveals key information like price or rating, and a selected state that anchors to a detail card. We also designed clustered states for areas with many nearby results, allowing travelers to zoom into dense neighborhoods without visual clutter.</p>
+					<p>These interaction patterns were designed to be consistent across categories while still surfacing the most relevant preview information for each type of listing.</p>
+				</div>
+				<div class="col-sm-8 col-md-9">
+					<img src="./img/tripadvisor-maps/placeholder-pin-states.svg" alt="Pin interaction states">
+					<img src="./img/tripadvisor-maps/placeholder-interactions.svg" alt="Pin interactions on map">
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+			<hr id="search-experience">
+
+			<div class="row">
+				<div class="col-sm-4 col-md-3">
+					<h2>Map-Centric Search</h2>
+					<h4>Putting the map at the center of the discovery experience</h4>
+					<p>The redesigned mapping experience makes the map a first-class part of search and discovery on Tripadvisor. Travelers can pan and zoom to explore an area, with results updating dynamically based on the visible map region. The tight integration between the list view and the map view helps users quickly cross-reference options and compare locations.</p>
+					<p>On mobile, the map experience was optimized for touch interactions, with responsive pin sizes and gesture-friendly controls that make it easy to explore on the go.</p>
+				</div>
+				<div class="col-sm-8 col-md-9">
+					<img src="./img/tripadvisor-maps/placeholder-search-experience.svg" alt="Map-centric search experience">
+					<div class="row">
+						<div class="col-sm-4"><img src="./img/tripadvisor-maps/placeholder-mobile.svg" alt="Mobile map experience"></div>
+						<div class="col-sm-8"><img src="./img/tripadvisor-maps/placeholder-results.svg" alt="Search results with map"></div>
+					</div>
+				</div>
+			</div>
 
 			<div class="clearfix"></div>
 
