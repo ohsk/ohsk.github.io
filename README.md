@@ -1,4 +1,4 @@
 ohsk.github.io
 ==============
 
-Personal portfolio of Stephen James Kennedy
+Personal portfolio of Stephen Kennedy
