@@ -899,7 +899,7 @@ body {
   font-size: 16px;
   line-height: 1.675;
   color: #333;
-  background-color: #fff;
+  background-color: #fcfbf8;
 }
 input,
 button,
@@ -1112,7 +1112,7 @@ h6,
 p {
   margin: 12px 0 16px;
   max-width: 40em;
-  font-family: "Overpass", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .lead {
   margin-bottom: 20px;
@@ -4560,7 +4560,6 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #fff;
 }
 /*ADJUST JUMBOTRON ON SMALL*/
 @media (max-width: 768px) {
@@ -4605,7 +4604,6 @@ a.list-group-item.active > .badge,
   display: block;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #fff;
   /*border: 1px solid #ddd;*/
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
